@@ -1,4 +1,4 @@
-name: Lint
+name: Reviewdog
 on: push
 jobs:
   reviewdog:
@@ -15,4 +15,5 @@ jobs:
       - name: Run eslint with reviewdog
         uses: reviewdog/action-eslint@v1.16.1
         with:
+          reporter: github-check
           eslint_flags: lint/lint.ts
