@@ -1,7 +1,9 @@
 name: Hello world!
-  on: push
-    jobs:
-      hello-world:
-        run-on: ubuntu-latest
-        steps:
-          - run: echo "Hello World! 🎉"
+  # on: push # You have an error in your yaml syntax on line 2
+  on:
+    push:
+  jobs:
+    hello-world:
+      run-on: ubuntu-latest
+      steps:
+        - run: echo "Hello World! 🎉"
