@@ -1,8 +1,8 @@
 name: Hello world!
-  on:
-    push:
-  jobs:
-    hello-world:
-      run-on: ubuntu-latest
-      steps:
-        - run: echo "Hello World! 🎉"
+on:
+  push:
+jobs:
+  hello-world:
+    run-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World! 🎉"
