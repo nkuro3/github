@@ -1,0 +1,30 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "### reference  - official https://docs.github.com/ja/  - やってみた https://iwb.jp/automatically-run-linter-push-github-actions/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lint/lint.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkuro3/github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkuro3/github/issues"
+  },
+  "homepage": "https://github.com/nkuro3/github#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.1",
+    "typescript": "^4.7.4"
+  }
+}
