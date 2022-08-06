@@ -1,5 +1,4 @@
 name: Hello world!
-  # on: push # You have an error in your yaml syntax on line 2
   on:
     push:
   jobs:
